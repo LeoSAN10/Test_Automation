@@ -1,5 +1,5 @@
 const Route = require('../models/Route');
-const TestDataReader = require('./TestDataReader');
+const TestDataReader = require('./testDataReader');
 const environments = require('../utils/environment.constants')
 
 class RouteCreator {
