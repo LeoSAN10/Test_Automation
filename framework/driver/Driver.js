@@ -13,7 +13,7 @@ class DriverManager {
     chromeOptions.addArguments("--no-sandbox");
     chromeOptions.addArguments("window-size=1920,1080");
     chromeOptions.addArguments("--disable-dev-shm-usage");
-    chromeOptions.setChromeBinaryPath("/usr/bin/google-chrome.exe")
+    chromeOptions.setChromeBinaryPath("/usr/bin/google-chrome")
 
     this.driver = await new Builder()
       .forBrowser('chrome')
